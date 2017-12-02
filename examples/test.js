@@ -2,8 +2,8 @@ const SupremeLog = require('../lib/SupremeLog.js');
 
 class Test {
 	constructor(){
-		// SupremeLog.before(this)
-		SupremeLog.before(this, ['trackenMethod2', 'trackenMethod4'])
+		SupremeLog.before(this);
+		SupremeLog.after(this, ['trackenMethod2', 'trackenMethod4']);
 		this.trackenMethod();
 		this.trackenMethod2();
 		this.trackenMethod3();
@@ -26,6 +26,10 @@ class Test {
 	trackenMethod4(){
 		console.log("I'm being watched 4");
 	}	
+
+	trackenMethodWithArgument(argument){
+
+	}
 
 }
 
