@@ -1,0 +1,24 @@
+{
+  "name": "supreme-log",
+  "version": "1.0.0",
+  "description": "This is a project of the Advanced Software Development course of the University of Brasília and consists of an framework in Node.js using aspect oriented programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinaferreira/DAS.git"
+  },
+  "keywords": [
+    "['logging'",
+    "'log'",
+    "'aspect']"
+  ],
+  "author": "Carolina Ferreira <carol.mf14@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinaferreira/DAS/issues"
+  },
+  "homepage": "https://github.com/carolinaferreira/DAS#readme"
+}
