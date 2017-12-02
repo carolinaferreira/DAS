@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/carolinaferreira/DAS/issues"
   },
-  "homepage": "https://github.com/carolinaferreira/DAS#readme"
+  "homepage": "https://github.com/carolinaferreira/DAS#readme",
+  "dependencies": {
+    "aspectjs": "^2.0.4"
+  }
 }
