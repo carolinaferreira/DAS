@@ -4,6 +4,7 @@ class Test {
 	constructor(){
 		SupremeLog.before(this);
 		SupremeLog.after(this, ['trackenMethod2', 'trackenMethod4']);
+		// SupremeLog.logFile = false
 		this.trackenMethod();
 		this.trackenMethod2();
 		this.trackenMethod3();
