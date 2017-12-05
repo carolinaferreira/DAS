@@ -4,7 +4,6 @@ class Test {
 	constructor(){
 		SupremeLog.before(this);
 		SupremeLog.after(this, ['trackenMethod2', 'trackenMethod4']);
-		SupremeLog.writeLogFile();
 		this.trackenMethod();
 		this.trackenMethod2();
 		this.trackenMethod3();
