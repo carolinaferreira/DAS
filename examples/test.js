@@ -5,6 +5,7 @@ class Test {
 		SupremeLog.before(this);
 		SupremeLog.after(this, ['trackenMethod2', 'trackenMethod4']);
 		// SupremeLog.logFile = false
+		// SupremeLog.useTime = false
 		this.trackenMethod();
 		this.trackenMethod2();
 		this.trackenMethod3();
